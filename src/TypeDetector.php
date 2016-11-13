@@ -1,21 +1,21 @@
 <?php
 namespace Yarco\TypeDetector;
 
-define('ORDED_TYPES', [
+class TypeDetector
+{
+    const ORDED_TYPES = [
     'smallint', 'bigint', 'int', 'decimal', 'float', 
     'password', 'color', 'email', 'url',
     'date', 'time', 'datetime',
     'string', 'text'
-]);
+];
 
-class TypeDetector
-{
     private $_queue;
     private $_types;
     
     protected function initPriorityQueue()
     {
-        $this->_queue = ORDED_TYPES;
+        $this->_queue = self::ORDED_TYPES;
     }
     
     protected function initTypeDefinitions()
