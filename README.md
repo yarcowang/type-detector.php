@@ -4,10 +4,10 @@
 [![Build Status](https://img.shields.io/travis/yarcowang/type-detector.php/master.svg?style=flat-square)](https://travis-ci.org/yarcowang/type-detector.php)
 [![Total Downloads](https://img.shields.io/packagist/dt/yarco/type-detector.svg?style=flat-square)](https://packagist.org/packages/yarco/type-detector)
 
-TypeDetector is php library to detect variable types by the key name and the value. The thinkings inherit from [superunit]("https://github.com/yarcowang/superunit") and [php-schema]("https://github.com/yarcowang/php-schema") ( _both are my experimental projects_ ).
+TypeDetector is php library to detect variable types by the key name and the value. The thinkings inherit from [superunit](https://github.com/yarcowang/superunit) and [php-schema](https://github.com/yarcowang/php-schema) ( _both are my experimental projects_ ).
 
 ## Usage
-Use [composer]("https://getcomposer.org/") to install this library.
+Use [composer](https://getcomposer.org/) to install this library.
 
 `composer require yarco/type-detector`
 
@@ -33,7 +33,7 @@ Array
 ```
 
 ## Types
-Below fields are referenced from [w3schools.com]("http://www.w3schools.com/sql/sql_datatypes.asp").
+Below fields are referenced from [w3schools.com](http://www.w3schools.com/sql/sql_datatypes.asp).
 
 ### Number
 MySQL Data Types | SQL Server Data Types | HTML Input Types | Doctrine Types | _Type Detector Supported_
